@@ -1,6 +1,11 @@
-# React under construction component
+# React under construction component <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
 [![Build Status](https://travis-ci.org/Rubbby/react-under-construction.svg?branch=master)](https://travis-ci.org/Rubbby/react-under-construction)
+[![dependency status][deps-svg]][deps-url]
+[![dev dependency status][dev-deps-svg]][dev-deps-url]
+[![npm](https://img.shields.io/npm/dw/localeval.svg)]()
+
+[![npm badge][npm-badge-png]][package-url]
 
 > An easily customisable, responsive under construction react page component
 
