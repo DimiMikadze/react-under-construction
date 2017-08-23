@@ -1,8 +1,10 @@
 # React under construction component
 
+[![Build Status](https://travis-ci.org/Rubbby/react-under-construction.svg?branch=master)](https://travis-ci.org/Rubbby/react-under-construction)
+
 > User friendly under construction page
 
-<img src="https://github.com/Rubbby/react-under-construction/blob/master/screenshot.png" width="400">
+<img src="https://github.com/Rubbby/react-under-construction/blob/master/screenshot.png" width="600">
 
 ## Installation
 
