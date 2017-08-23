@@ -1,7 +1,6 @@
 # React under construction component [![npm](https://img.shields.io/npm/v/react-under-construction.svg)]()
 
 [![Build Status](https://travis-ci.org/Rubbby/react-under-construction.svg?branch=master)](https://travis-ci.org/Rubbby/react-under-construction)
-
 [![Dependencies](https://img.shields.io/david/rubbby/react-under-construction.svg)]()
 [![Dev Dependencies](https://img.shields.io/bithound/devDependencies/github/rubbby/react-under-construction.svg)]()
 [![Github All Releases](https://img.shields.io/github/downloads/atom/rubbby/react-under-construction.svg)]()
