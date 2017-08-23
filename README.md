@@ -1,8 +1,8 @@
-# React under construction component <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
+# React under construction component
 
 [![Build Status](https://travis-ci.org/Rubbby/react-under-construction.svg?branch=master)](https://travis-ci.org/Rubbby/react-under-construction)
 
-[![NPM](https://nodei.co/npm/<package>.png)](https://npmjs.org/package/react-under-construction)
+[![NPM](https://nodei.co/npm/express.png)](https://npmjs.org/package/react-under-construction)
 
 > An easily customisable, responsive under construction react page component
 
