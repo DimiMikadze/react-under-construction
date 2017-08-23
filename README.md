@@ -4,7 +4,7 @@
 
 > User friendly under construction page
 
-<img src="https://github.com/Rubbby/react-under-construction/blob/master/screenshot.png" width="600">
+<img src="https://github.com/Rubbby/react-under-construction/blob/master/screenshot.png" width="800">
 
 ## Installation
 
