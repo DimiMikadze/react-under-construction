@@ -1,7 +1,7 @@
 {
   "name": "react-under-construction",
   "version": "0.1.0",
-  "description": "User friendly under construction page",
+  "description": "An easily customisable, responsive under construction react page component",
   "main": "build/index.js",
   "scripts": {
     "start": "node scripts/start.js",

@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Rubbby/react-under-construction.svg?branch=master)](https://travis-ci.org/Rubbby/react-under-construction)
 
-> User friendly under construction page
+> An easily customisable, responsive under construction react page component
 
 <img src="https://github.com/Rubbby/react-under-construction/blob/master/screenshot.png" width="800">
 
@@ -25,7 +25,7 @@ const App = () => (
       textColor: '#fff',
       overlay: {
         color: '#000',
-        opacity: '.3'
+        opacity: '.5'
       }
     }}
     logo={{
@@ -33,10 +33,13 @@ const App = () => (
       alt: 'alt text'
     }}
     title={{
-      text: 'Coming soon'
+      text: 'Rubbby'
     }}
     description={{
-      text: 'Our website is under construction'
+      text: 'Our website is under construction. We\'ll be here soon, subscribe to be notified',
+      style: {
+        maxWidth: '440px',
+      }
     }}
     subscribe={{
       placeholder: 'Enter your email',

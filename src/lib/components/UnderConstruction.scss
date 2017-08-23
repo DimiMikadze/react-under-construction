@@ -2,7 +2,7 @@ $white-color: #fff;
 $black-color: #000;
 $red-color: #ff3b30;
 
-$margin-between-blocks: 12px;
+$margin-between-blocks: 18px;
 
 $md-breakpoint: '700px';
 
@@ -75,6 +75,7 @@ body,
 }
 
 .UnderConstruction-title {
+  margin: 0 auto;
   margin-top: $margin-between-blocks;
   font-size: 40px;
   text-align: center;
@@ -85,6 +86,7 @@ body,
 }
 
 .UnderConstruction-description {
+  margin: 0 auto;
   margin-top: $margin-between-blocks;
   font-size: 22px;
   line-height: 32px;
