@@ -1,7 +1,7 @@
 {
   "name": "react-under-construction",
-  "version": "1.0.0",
-  "description": "React NPM library starter kit based on Facebook's create react app",
+  "version": "0.1.0",
+  "description": "User friendly under construction page",
   "main": "build/index.js",
   "scripts": {
     "start": "node scripts/start.js",
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rubbby/create-react-library.git"
+    "url": "git+https://github.com/rubbby/react-under-construction.git"
   },
   "author": "Dimitri Mikadze <dimitri@rubbby.com>",
   "bugs": {
-    "url": "https://github.com/rubbby/create-react-library/issues"
+    "url": "https://github.com/rubbby/react-under-construction/issues"
   },
-  "homepage": "https://github.com/rubbby/create-react-library#readme",
+  "homepage": "https://github.com/rubbby/react-under-construction#readme",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "7.1.2",
