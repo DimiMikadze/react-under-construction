@@ -8,7 +8,7 @@
 
 > An easily customisable, responsive under construction react page component
 
-<img src="https://github.com/Rubbby/react-under-construction/blob/master/demo-screenshot.jpg" width="800">
+<img src="https://github.com/Rubbby/react-under-construction/blob/master/screenshot-demo.jpg" width="800">
 
 ## Installation
 
