@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Rubbby/react-under-construction.svg?branch=master)](https://travis-ci.org/Rubbby/react-under-construction)
 [![Dependencies](https://img.shields.io/david/rubbby/react-under-construction.svg)]()
-[![Github All Releases](https://img.shields.io/github/downloads/atom/rubbby/react-under-construction.svg)]()
+[![Github All Releases](https://img.shields.io/github/downloads/rubbby/react-under-construction/total.svg)]()
 
 [![NPM](https://nodei.co/npm/react-under-construction.png)](https://npmjs.org/package/react-under-construction)
 
