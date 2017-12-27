@@ -1,64 +1,131 @@
-# React NPM library starter kit
+# React under construction component [![npm](https://img.shields.io/npm/v/react-under-construction.svg)]()
 
-[![Build Status](https://travis-ci.org/UdiliaInc/create-react-library.svg?branch=master)](https://travis-ci.org/UdiliaInc/create-react-library)
-[![Dependencies](https://img.shields.io/david/udiliaInc/create-react-library.svg)]()
-[![Dev Dependencies](https://img.shields.io/david/dev/udiliaInc/create-react-library.svg)]()
+[![Build Status](https://travis-ci.org/UdiliaInc/react-under-construction.svg?branch=master)](https://travis-ci.org/UdiliaInc/react-under-construction)
+[![Dependencies](https://img.shields.io/david/udiliaInc/react-under-construction.svg)]()
+[![Dev Dependencies](https://img.shields.io/david/dev/udiliaInc/react-under-construction.svg)]()
+[![npm downloads](https://img.shields.io/npm/dm/react-under-construction.svg)](https://www.npmjs.com/package/react-under-construction)
 
-based on Facebook's <a href="https://github.com/facebookincubator/create-react-app" target="_blank">Create react app</a>.
-We are constantly updating repository with the updates of `create-react-app`, so we have all new features and bug fixes of it.
+[![NPM](https://nodei.co/npm/react-under-construction.png)](https://npmjs.org/package/react-under-construction)
 
-## Converted to custom setup
+> An easily customisable, responsive under construction react page component
 
-Moved all dependencies to dev dependencies because we don't need extra dependencies for our library after build, but we want all this features while developing: 
+<img src="https://github.com/udiliaInc/react-under-construction/blob/master/screenshot-demo.jpg" width="800">
 
-* React, JSX, ES6, and Flow syntax support.
-* Language extras beyond ES6 like the object spread operator.
-* A dev server that lints for common errors.
-* Import CSS and image files directly from JavaScript.
-* Autoprefixed CSS, so you don’t need `-webkit` or other prefixes.
-* A `build` script to bundle JS, CSS, and images for production.
+## Installation
 
-## Getting Started
+`npm i react-under-construction --save` or `yarn add react-under-construction `
 
-Clone repo
+## Usage
+
+> Note Parent containers should have `width` and `height` 100%, to `react-under-construction` was able to stretch full screen
 
 ````
-git clone https://github.com/udiliaInc/create-react-library.git
+import React from 'react';
+import UnderConstruction from 'react-under-construction';
+
+const App = () => (
+  <UnderConstruction
+    background={{
+      image: 'https://static.pexels.com/photos/259698/pexels-photo-259698.jpeg',
+      textColor: '#fff',
+      overlay: {
+        color: '#000',
+        opacity: '.5'
+      }
+    }}
+    logo={{
+      src: 'https://image.ibb.co/b7guP5/Rubbby_without_text.png',
+      alt: 'alt text'
+    }}
+    title={{
+      text: 'Rubbby'
+    }}
+    description={{
+      text: 'Our website is under construction. We\'ll be here soon, subscribe to be notified',
+      style: {
+        maxWidth: '440px',
+      }
+    }}
+    subscribe={{
+      placeholder: 'Enter your email',
+      buttonText: 'Subscribe',
+      onSubmit: (value) => {
+        console.log('user typed email :', value);
+      }
+    }}
+    links={[
+      {
+        url: 'https://www.facebook.com/',
+        image: 'https://image.flaticon.com/icons/svg/220/220200.svg',
+      },
+      {
+        url: 'https://www.twitter.com/',
+        image: 'https://image.flaticon.com/icons/svg/145/145812.svg',
+      },
+      {
+        url: 'https://www.linkedin.com/',
+        image: 'https://image.flaticon.com/icons/svg/145/145807.svg',
+      },
+      {
+        url: 'mailto:someone@example.com',
+        image: 'https://image.flaticon.com/icons/svg/321/321817.svg',
+      },
+    ]}
+  />
+);
+
+export default App;
 ````
 
-Install dependencies
+## Other options
 
-`npm install` or `yarn install`
+````
+background={{
+  image: {string} Background image of main container
+  color: {string} Background color of main container,
+  textColor: {string} Main text color for page
+  overlay: {
+    color: {string} Overlay color
+    opacity: {string} Overlay opacity
+  },
+  style: {object} Additional style for main container
+}}
+logo={{
+  src: {string} Image source
+  alt: {string} Image alt text,
+  style: {object} Additional style for logo
+}}
+title={{
+  text: {string} Title text
+  style: {object} Additional style for title
+}}
+description={{
+  text: {string} description text
+  style: {object} Additional style for description
+}}
+subscribe={{
+  onSubmit: {function} Submit function for form, which receives input value 
+  placeholder: {string} Placeholder text
+  buttonText: {string} Button text
+  inputStyle: {object} Additional style for input
+  buttonStyle: {object} Additional style for button
+}}
+links: [
+  {
+    url: {string} Link url
+    image: {string} Link image source
+    text: {string} Link text
+    imageStyle: {object} Additional style for image
+    textStyle: {object} Additional style for text
+  }
+]
+````
 
-Start development server
+## Demo
 
-`npm start` or `yarn start`
+To run demo on your own computer:
 
-Runs the demo app in development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-## Library files
-
-All library files are located inside `src/lib`  
-
-## Demo app
-
-Is located inside `src/demo` directory, here you can test your library while developing
-
-## Testing
-
-`npm run test` or `yarn run test`
-
-## Build library
-
-`npm run build` or `yarn run build`
-
-Produces production version of library under the `build` folder.
-
-## Publish library
-
-`npm publish`
-
-## Example library built with this starter kit
-
-https://github.com/UdiliaInc/react-under-construction
+* Clone this repository
+* `npm install`
+* `npm start`
+* Visit http://localhost:3000/
