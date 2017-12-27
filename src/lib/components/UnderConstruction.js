@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import logo from './udilia-small.png';
 import './UnderConstruction.css';
 
 class UnderConstruction extends React.Component {
@@ -141,7 +142,7 @@ UnderConstruction.defaultProps = {
     style: {},
   },
   logo: {
-    src: '',
+    src: logo,
     alt: '',
     style: {},
   },

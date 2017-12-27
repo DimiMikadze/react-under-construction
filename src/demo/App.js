@@ -11,13 +11,6 @@ const App = () => (
         opacity: '.5'
       }
     }}
-    logo={{
-      src: 'https://image.ibb.co/kmtJK5/Rubby_white_lines.png',
-      alt: 'alt text',
-      style: {
-        width: '160px'
-      }
-    }}
     description={{
       text: 'Our website is under construction. We\'ll be here soon, subscribe to be notified',
       style: {

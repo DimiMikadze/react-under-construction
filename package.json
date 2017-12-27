@@ -1,6 +1,6 @@
 {
   "name": "react-under-construction",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "An easily customisable, responsive under construction react page component",
   "main": "build/index.js",
   "scripts": {
