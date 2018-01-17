@@ -1,5 +1,6 @@
 import React from 'react';
 import UnderConstruction from '../lib';
+import logo from './udilia-logo-white.svg';
 
 const App = () => (
   <UnderConstruction
@@ -9,6 +10,13 @@ const App = () => (
       overlay: {
         color: '#000',
         opacity: '.5'
+      }
+    }}
+    logo={{
+      src: logo,
+      alt: 'logo',
+      style: {
+        width: '80px'
       }
     }}
     description={{

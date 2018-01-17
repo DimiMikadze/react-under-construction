@@ -9,7 +9,7 @@
 
 > An easily customisable, responsive under construction react page component
 
-<img src="https://github.com/DimitriMikadze/react-under-construction/blob/master/screenshot-demo.jpg" width="800">
+<img src="https://github.com/DimitriMikadze/react-under-construction/blob/master/screenshot.png" width="800">
 
 ## Installation
 
