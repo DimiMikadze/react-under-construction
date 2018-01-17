@@ -1,15 +1,15 @@
 # React under construction component [![npm](https://img.shields.io/npm/v/react-under-construction.svg)]()
 
-[![Build Status](https://travis-ci.org/UdiliaInc/react-under-construction.svg?branch=master)](https://travis-ci.org/UdiliaInc/react-under-construction)
-[![Dependencies](https://img.shields.io/david/udiliaInc/react-under-construction.svg)]()
-[![Dev Dependencies](https://img.shields.io/david/dev/udiliaInc/react-under-construction.svg)]()
+[![Build Status](https://travis-ci.org/DimitriMikadze/react-under-construction.svg?branch=master)](https://travis-ci.org/DimitriMikadze/react-under-construction)
+[![Dependencies](https://img.shields.io/david/DimitriMikadze/react-under-construction.svg)]()
+[![Dev Dependencies](https://img.shields.io/david/dev/DimitriMikadze/react-under-construction.svg)]()
 [![npm downloads](https://img.shields.io/npm/dm/react-under-construction.svg)](https://www.npmjs.com/package/react-under-construction)
 
 [![NPM](https://nodei.co/npm/react-under-construction.png)](https://npmjs.org/package/react-under-construction)
 
 > An easily customisable, responsive under construction react page component
 
-<img src="https://github.com/udiliaInc/react-under-construction/blob/master/screenshot-demo.jpg" width="800">
+<img src="https://github.com/DimitriMikadze/react-under-construction/blob/master/screenshot-demo.jpg" width="800">
 
 ## Installation
 
