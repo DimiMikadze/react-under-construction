@@ -1,7 +1,7 @@
 {
-  "name": "create-react-library",
-  "version": "2.0.0",
-  "description": "React NPM library starter kit based on Facebook's create react app",
+  "name": "react-under-construction",
+  "version": "0.3.0",
+  "description": "An easily customisable, responsive under construction react page component",
   "main": "build/index.js",
   "scripts": {
     "start": "node scripts/start.js",
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DimiMikadze/create-react-library.git"
+    "url": "git+https://github.com/DimitriMikadze/react-under-construction.git"
   },
   "author": "Dimi Mikadze <dimi@udilia.com>",
   "bugs": {
-    "url": "https://github.com/DimiMikadze/create-react-library/issues"
+    "url": "https://github.com/DimitriMikadze/create-react-library/issues"
   },
-  "homepage": "https://github.com/DimiMikadze/create-react-library#readme",
+  "homepage": "https://github.com/DimitriMikadze/react-under-construction#readme",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
